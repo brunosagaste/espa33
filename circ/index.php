@@ -18,7 +18,7 @@
 
 
 <div class="container-fluid">
-  <h1><img src="../images/circ.png" border="0" width="30" height="30" align="top"> <?php echo $loc->getText("indexHeading"); ?></h1>
+  <h3><img src="../images/circ.png" border="0" width="30" height="30" align="top"> <?php echo $loc->getText("indexHeading"); ?></h3>
 
 <!--
 <form name="barcodesearch" method="POST" action="../circ/mbr_search.php">
@@ -62,9 +62,9 @@
     <form name="phrasesearch" method="POST" action="../circ/mbr_search.php">
       <div class="form-group">
         <div>
-          <label>  
+          <h5>  
             <?php echo $loc->getText("indexCardHdr"); ?> 
-          </label>
+          </h5>
         </div>    
 
         <div class="col-lg-6">
@@ -93,9 +93,9 @@
     <form name="phrasesearch" method="POST" action="../circ/mbr_search.php">
       <div class="form-group">
         <div>
-          <label>
+          <h5>
             <?php echo $loc->getText("indexNameHdr"); ?> 
-          </label>
+          </h5>
         </div>
 
         <div class="col-lg-6">
